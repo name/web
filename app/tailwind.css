@@ -3,10 +3,57 @@
 @tailwind utilities;
 
 body {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  line-height: 1.4;
+  padding: 0 10px;
+  margin: 50px auto;
+  max-width: 650px;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.two-column-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-column-list div {
+  flex: 1;
+}
+
+.two-column-list ul {
+  list-style-type: none;
+}
+
+.two-column-list ul li {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+
+span.chrono-list-date {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.chrono-list-label {
+  flex-shrink: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 1ch;
+}
+
+div.chrono-list {
+  display: flex;
+  justify-content: space-between;
 }

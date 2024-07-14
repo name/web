@@ -62,60 +62,79 @@ export default function Index() {
             
       </div>
       <hr />
-      <p className="pt-2">[cunjur@1λ.com ~] <span className="text-green-400">::</span> cat about.md</p>
-      <p className="font-sans pl-1">
-        &gt; Infra, swe, and ml ~ dm's open.
-      </p>
-      <p className="font-sans pl-1">
-        &gt; Welcome to my 'corner of the internet'.
-        I'm currently a {age} y/o <a href="https://hitorilabs.com/posts/super_neets/" className="text-green-400 hover:bg-green-400 hover:text-white py-0.5 px-1 rounded-sm cursor-pointer">super neet</a>. 
-      </p>
-      <p className="font-sans pl-1">
-        &gt; Most of my work revolves around building and maintaining infrastructure, software engineering, and machine learning.
-      </p>
-      <p className="pt-2">[cunjur@1λ.com ~] <span className="text-green-400">::</span> cat recent_posts.md</p>
-      <ul className="font-mono">
-        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
-          <a href="/posts/links" className="cursor-pointer">
-            <div className="chrono-list">
-                <span className="chrono-list-date">2024-07-14</span>
-                <span className="chrono-list-label">links</span>
-            </div>
-          </a>
-        </li>
-      </ul>
       <p className="pt-2">[cunjur@1λ.com ~] <span className="text-green-400">::</span> cat links.md</p>
-      <ul className="font-mono">
+      <p className="font-sans pl-1">
+        &gt; This is my list of cool digital gardens, blogs, and personal sites that I love or get inspiration from.<br />
+        &gt; I hope you find something interesting here!
+      </p>
+      <ul className="font-mono pt-4">
         <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
-          <a href="https://x.com/cunjur" className="cursor-pointer" target="_blank">
+          <a href="https://hitorilabs.com/" className="cursor-pointer" target="_blank">
             <div className="chrono-list">
-                <span className="chrono-list-date">x.com</span>
-                <span className="chrono-list-label">cunjur</span>
+                <span className="chrono-list-date">hitorilabs</span>
+                <span className="chrono-list-label">hitorilabs.com</span>
             </div>
           </a>
         </li>
         <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
-          <a href="https://github.com/name" className="cursor-pointer" target="_blank">
+          <a href="https://juw.ee/" className="cursor-pointer" target="_blank">
             <div className="chrono-list">
-                <span className="chrono-list-date">github.com</span>
-                <span className="chrono-list-label">name</span>
+                <span className="chrono-list-date">juwee</span>
+                <span className="chrono-list-label">juw.ee</span>
             </div>
           </a>
         </li>
         <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
-          <a href="mailto:mail@sakuraji.me" className="cursor-pointer" target="_blank">
+          <a href="https://ana.sh/" className="cursor-pointer" target="_blank">
             <div className="chrono-list">
-                <span className="chrono-list-date">email</span>
-                <span className="chrono-list-label">mail@sakuraji.me</span>
+                <span className="chrono-list-date">ana</span>
+                <span className="chrono-list-label">ana.sh</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
+          <a href="https://qtnx.ai/" className="cursor-pointer" target="_blank">
+            <div className="chrono-list">
+                <span className="chrono-list-date">Q</span>
+                <span className="chrono-list-label">qtnx.ai</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
+          <a href="https://echo4eva.com/" className="cursor-pointer" target="_blank">
+            <div className="chrono-list">
+                <span className="chrono-list-date">echo4eva</span>
+                <span className="chrono-list-label">echo4eva.com</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
+          <a href="https://yacine.ca/" className="cursor-pointer" target="_blank">
+            <div className="chrono-list">
+                <span className="chrono-list-date">yacine</span>
+                <span className="chrono-list-label">yacine.ca</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
+          <a href="https://shen.land/" className="cursor-pointer" target="_blank">
+            <div className="chrono-list">
+                <span className="chrono-list-date">shen</span>
+                <span className="chrono-list-label">shen.land</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-green-400 hover:text-white rounded-sm py-0.5 px-1 text-green-400">
+          <a href="https://simo.sh/" className="cursor-pointer" target="_blank">
+            <div className="chrono-list">
+                <span className="chrono-list-date">simo</span>
+                <span className="chrono-list-label">simo.sh</span>
             </div>
           </a>
         </li>
       </ul>
-      <p className="pt-2">[cunjur@1λ.com ~] <span className="text-green-400">::</span> cat network.md</p>
-      <p className="font-sans pl-1">
-      &gt; If your inquiry is related to a network I manage or control, please send an email to my email listed on the respective WHOIS contact.<br />
-      &gt; If it's a P1 emergency, you can email <a href="mailto:ops@multi.sh" className="text-green-400 hover:bg-green-400 hover:text-white py-0.5 px-1 rounded-sm cursor-pointer">ops@multi.sh</a>.
-      </p>
+
+      
     </div>
   );
 }

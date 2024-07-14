@@ -37,7 +37,7 @@ export function MusicCard({
       <HoverCardTrigger>{children}</HoverCardTrigger>
       <HoverCardContent>
         <HoverCardContentData src={coverArt} title={title} author={artist} />
-        <div className="flex gap-x-1.5 items-center">
+        <div className="flex gap-x-1.5 items-center font-mono">
           <button
             className="bg-[#1DB954] hover:bg-[#1DB954]/80 transition text-gray-1 py-1 flex items-center justify-center rounded-sm w-1/4 self-stretch"
             onClick={handlePlay}
@@ -53,7 +53,7 @@ export function MusicCard({
             href={songUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-x-1 text-sm bg-layout-dark justify-center w-full text-gray-5 py-1 rounded-sm font-medium hover:bg-gray-11 transition-colors duration-100 whitespace-nowrap"
+            className="flex items-center gap-x-1 text-sm bg-zinc-300 text-zinc-950 justify-center w-full text-gray-5 py-1 rounded-sm font-medium hover:bg-gray-11 transition-colors duration-100 whitespace-nowrap"
           >
             <SpotifyLogo className="shrink-0" aria-hidden={true} />
             Listen on Spotify
@@ -80,7 +80,7 @@ function HoverCardContentData({
 }) {
   return (
     <>
-      <div className="aspect-square border rounded-[3px] border-layout-darker overflow-hidden relative">
+      <div className="aspect-square border rounded-[3px] border-zinc-300 overflow-hidden relative">
         <img
           src={src}
           className="object-cover object-center w-full h-full"
@@ -88,8 +88,8 @@ function HoverCardContentData({
         />
       </div>
       <div className="mt-2 mb-1">
-        <span className="text-text-lightest font-sm leading-none block truncate">{title}</span>
-        <span className="text-text-lighter text-xs text-gray-10">by {author}</span>
+        <span className="text-zinc-300 font-sm leading-none block truncate">{title}</span>
+        <span className="text-zinc-400 text-xs text-gray-10">by {author}</span>
       </div>
     </>
   );
@@ -99,7 +99,7 @@ function HoverCardContent({ children }: { children: React.ReactNode }) {
   return (
     <HoverCardPrimitive.Portal>
       <HoverCardPrimitive.Content
-        className="w-64 h-fit bg-layout-darker shadow-sm text-text-lighter rounded-[4px] pt-1 pb-1 px-1 border border-layout-dark outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"
+        className="w-64 h-fit bg-zinc-950 shadow-sm text-zinc-300 rounded-[4px] pt-1 pb-1 px-1 border border-zinc-300 outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"
         sideOffset={5}
       >
         {children}
